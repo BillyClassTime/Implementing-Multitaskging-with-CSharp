@@ -9,20 +9,21 @@ namespace ImplementingMultitaskging
         static void Main(string[] args)
         {
             //new Program().Task1(); // Creating and starting Task, with delegate, lambda expression and Anonymous Method
-            //new Program().Task2(); // Creating and starting Task with run methods shortcut of Task.Factory.StartNew
+            //new Program().Task2(); 
+            // Creating and starting Task with run methods shortcut of Task.Factory.StartNew
             //new UsingTaskFactory().RunningTaskFactory(); //Task.Factory.StartNew is highly configurable and
             //accepts a wide range of parameters.
             //new Program().WaitingForMultipleTaskToComplete();                                                             
             //new Program().RetrievingAValueFromATask(); //Returning a Value from a Task
 
-            //new Program().CancellingTask(); // Calling without async
-            /*var tasking = new Program().CancellingTask();
+            //new Program().CancellingTask(); // Calling Sync
+            /*var tasking = new Program().CancellingTask(); // Calling Async
             WriteLine(tasking.Status);
-            try
-            {
+            //try
+            //{
                 //tasking.ContinueWith(t => WriteLine("waiting for task"));
                 tasking.Wait();
-            }
+            /*}
             catch (SystemException e)
             {
                 WriteLine($"Message: {e.Message}");
@@ -32,11 +33,12 @@ namespace ImplementingMultitaskging
                 tasking.Dispose();
             }*/
 
+            //new UsingParallel().usingParallelFor();
             //new UsingPLinq().PLinq();
             //new UsingPLinq().PLinqSecondMeasure();
 
             // Handling Task Exceptions 
-            // new Program().CachingTaskException();
+            new Program().CachingTaskException();
         }
 
         private void Task1()
@@ -128,7 +130,7 @@ namespace ImplementingMultitaskging
         }
         private void LongRunningMethodA()
         {
-            for (int i = 0; i < 8888000;) //WaitAny:22222000 //WaitAll:8888000
+            for (int i = 0; i < Int32.MaxValue;) //WaitAny:22222000 //WaitAll:8888000
             {
                 i++;
             }
@@ -144,7 +146,7 @@ namespace ImplementingMultitaskging
         }
         private void LongRunningMethodC()
         {
-            for (int i = 4000; i < 60000;) //WaitAny: 55555000
+            for (int i = 4000; i < 60000;) //WaitAny: 55555000 //WaitAll: 60000
             {
                 i++;
             }
@@ -190,11 +192,11 @@ namespace ImplementingMultitaskging
                 //await task;
                 task.Wait();
             }
-            catch (OperationCanceledException e)
+            catch (OperationCanceledException e) // Cuando sea asyncrono
             {
                 WriteLine($"{nameof(OperationCanceledException)} thrown with message: {e.Message}");
             }
-            catch (AggregateException e)  //Será generado si el método no es definido como async wait
+            catch (AggregateException e)  //Syncrono -> Será generado si el método no es definido como async wait
             {
                 WriteLine($"Message: {e.Message}");
             }

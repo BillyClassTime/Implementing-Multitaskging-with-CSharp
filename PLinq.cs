@@ -59,6 +59,7 @@ namespace ImplementingMultitaskging
 
         public void PLinqSecondMeasure()
         {
+            Write("Inicio de prueba");
             Stopwatch sw = new Stopwatch();
 
             int[] vals = Enumerable.Range(0, Int16.MaxValue).ToArray();
@@ -77,13 +78,14 @@ namespace ImplementingMultitaskging
             int[] x3 = vals.AsParallel().Where(IsValid).ToArray();
             sw.Stop();
             WriteLine("Parallel #2 Execution {0} milliseconds", sw.ElapsedMilliseconds);
+            Write("Fin de prueba");
         }
 
         static bool IsValid(int input)
         {
             int result = 0;
 
-            for (int i = 0; i < 5000; i++)
+            for (int i = 0; i < 50000; i++)
                 result = input % 2;
 
             return result == 0;

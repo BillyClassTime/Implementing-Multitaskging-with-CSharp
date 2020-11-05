@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BMV\\20483C\\Mod 9-13\\Tasks\\ImplementingMultitaskging\\ImplementingMultitaskging.csproj": {}
+    "D:\\BMV\\20483C\\Mod 9-13\\10ImprovingApplicationPerformanceAndResponsiveness\\ImplementingMultitaskging\\ImplementingMultitaskging.csproj": {}
   },
   "projects": {
-    "D:\\BMV\\20483C\\Mod 9-13\\Tasks\\ImplementingMultitaskging\\ImplementingMultitaskging.csproj": {
+    "D:\\BMV\\20483C\\Mod 9-13\\10ImprovingApplicationPerformanceAndResponsiveness\\ImplementingMultitaskging\\ImplementingMultitaskging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BMV\\20483C\\Mod 9-13\\Tasks\\ImplementingMultitaskging\\ImplementingMultitaskging.csproj",
+        "projectUniqueName": "D:\\BMV\\20483C\\Mod 9-13\\10ImprovingApplicationPerformanceAndResponsiveness\\ImplementingMultitaskging\\ImplementingMultitaskging.csproj",
         "projectName": "ImplementingMultitaskging",
-        "projectPath": "D:\\BMV\\20483C\\Mod 9-13\\Tasks\\ImplementingMultitaskging\\ImplementingMultitaskging.csproj",
+        "projectPath": "D:\\BMV\\20483C\\Mod 9-13\\10ImprovingApplicationPerformanceAndResponsiveness\\ImplementingMultitaskging\\ImplementingMultitaskging.csproj",
         "packagesPath": "C:\\Users\\Billy Vanegas\\.nuget\\packages\\",
-        "outputPath": "D:\\BMV\\20483C\\Mod 9-13\\Tasks\\ImplementingMultitaskging\\obj\\",
+        "outputPath": "D:\\BMV\\20483C\\Mod 9-13\\10ImprovingApplicationPerformanceAndResponsiveness\\ImplementingMultitaskging\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Billy Vanegas\\AppData\\Roaming\\NuGet\\NuGet.Config",
