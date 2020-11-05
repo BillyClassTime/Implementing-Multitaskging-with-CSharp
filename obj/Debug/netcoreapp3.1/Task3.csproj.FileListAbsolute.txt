@@ -1,0 +1,13 @@
+D:\BMV\20483C\Mod 9-13\Tasks\Task3\bin\Debug\netcoreapp3.1\Task3.exe
+D:\BMV\20483C\Mod 9-13\Tasks\Task3\bin\Debug\netcoreapp3.1\Task3.deps.json
+D:\BMV\20483C\Mod 9-13\Tasks\Task3\bin\Debug\netcoreapp3.1\Task3.runtimeconfig.json
+D:\BMV\20483C\Mod 9-13\Tasks\Task3\bin\Debug\netcoreapp3.1\Task3.runtimeconfig.dev.json
+D:\BMV\20483C\Mod 9-13\Tasks\Task3\bin\Debug\netcoreapp3.1\Task3.dll
+D:\BMV\20483C\Mod 9-13\Tasks\Task3\bin\Debug\netcoreapp3.1\Task3.pdb
+D:\BMV\20483C\Mod 9-13\Tasks\Task3\obj\Debug\netcoreapp3.1\Task3.csprojAssemblyReference.cache
+D:\BMV\20483C\Mod 9-13\Tasks\Task3\obj\Debug\netcoreapp3.1\Task3.AssemblyInfoInputs.cache
+D:\BMV\20483C\Mod 9-13\Tasks\Task3\obj\Debug\netcoreapp3.1\Task3.AssemblyInfo.cs
+D:\BMV\20483C\Mod 9-13\Tasks\Task3\obj\Debug\netcoreapp3.1\Task3.csproj.CoreCompileInputs.cache
+D:\BMV\20483C\Mod 9-13\Tasks\Task3\obj\Debug\netcoreapp3.1\Task3.dll
+D:\BMV\20483C\Mod 9-13\Tasks\Task3\obj\Debug\netcoreapp3.1\Task3.pdb
+D:\BMV\20483C\Mod 9-13\Tasks\Task3\obj\Debug\netcoreapp3.1\Task3.genruntimeconfig.cache
